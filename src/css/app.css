@@ -50,3 +50,11 @@
   .choices div{
       margin: 10px;
   }
+
+  input {
+    width: 580px;
+    font-size: 36px;
+    color: #34495e;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+  }
