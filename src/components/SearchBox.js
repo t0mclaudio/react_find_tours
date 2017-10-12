@@ -2,7 +2,7 @@ import React from 'react';
 
 const SearchBox = props => {
     return (
-        <input type="text" width="300px" />
+        <input type="text" size="80" />
     )
 }
 
