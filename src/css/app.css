@@ -23,6 +23,9 @@
     color: rgba(230, 126, 34,1.0);
   }
 
+  .App {
+    width: 100%;
+  }
   #root {
     display: flex;
     width:600px;
