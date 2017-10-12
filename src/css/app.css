@@ -10,12 +10,23 @@
 
   body {
       font-family: 'Gotham Rounded Book';
+      background-color:#2ecc71; 
   }
 
   h1 {
       font-family: 'Gotham Rounded Bold';
-      color: #2ecc71;
+      color: #c0392b;
   }
+
+  #root {
+    display: flex;
+    width:600px;
+    margin: 0 auto;
+    border: 1px solid #ecf0f1;
+    border-radius: 4px;
+    padding: 10px;
+    background-color:  white;
+  } 
 
   .flex {
       display: flex;
