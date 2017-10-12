@@ -7,6 +7,7 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {tours: data}
+    this.found = this.state.tours.length
   }
   onType(e) {
     var filtered = []
@@ -17,14 +18,17 @@ class App extends Component {
         filtered.push(obj)
       }
     })
+    this.found = filtered.length
     this.setState({tours: filtered})
   }
   render() {
     return (
       <div className="App">
-        <h1>Hello</h1>
+        <h1>Find me a tour</h1>
+
         <SearchBox onType={(e) => this.onType(e) } />
-        <SearchResults data={this.state.tours} />
+        <SearchResults data={this.state.tours} found={this.found} />
+
       </div>
     );
   }
