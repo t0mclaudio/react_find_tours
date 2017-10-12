@@ -1,8 +1,11 @@
 import React from 'react';
 
 const SearchBox = props => {
+    const onType = event =>{
+        props.onType(event)
+    }
     return (
-        <input type="text" size="80" />
+        <input onChange={onType} type="text" placeholder="Enter a keyword" />
     )
 }
 

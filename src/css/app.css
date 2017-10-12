@@ -52,9 +52,14 @@
   }
 
   input {
+    height: 35px;
     width: 580px;
-    font-size: 36px;
+    font-size: 32px;
     color: #34495e;
     border: 1px solid #bdc3c7;
     border-radius: 4px;
+  }
+
+  input::placeholder {
+    color:rgba(189, 195, 199,.70);
   }
