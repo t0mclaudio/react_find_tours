@@ -18,6 +18,11 @@
       color: #d35400;
   }
 
+  h3 {
+    font-family: 'Gotham Rounded Bold';
+    color: rgba(230, 126, 34,1.0);
+  }
+
   #root {
     display: flex;
     width:600px;
@@ -53,7 +58,7 @@
 
   input {
     height: 35px;
-    width: 580px;
+    width: 100%;
     font-size: 32px;
     color: #34495e;
     border: 1px solid #bdc3c7;
@@ -62,4 +67,16 @@
 
   input::placeholder {
     color:rgba(189, 195, 199,.70);
+  }
+
+  .notFound {
+    color: rgba(231, 76, 60,1.0);
+    text-align: center;
+  }
+
+  .searchNumber {
+    margin-top: 15px;
+    text-align: right;
+    color: rgba(46, 204, 113,1.0);
+    text-decoration: underline;
   }
