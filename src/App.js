@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SearchBox from './components/SearchBox'
+import data from './data'
 
 class App extends Component {
   render() {
