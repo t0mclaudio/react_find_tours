@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Gotham Rounded Bold';
+    src:  url('./fonts/gotham-rounded-bold.otf');
+  }
+  
+  @font-face {
+    font-family: 'Gotham Rounded Book';
+    src:  url('./fonts/gotham-rounded-book.otf');
+  }
+
+  body {
+      font-family: 'Gotham Rounded Book';
+  }
+
+  h1 {
+      font-family: 'Gotham Rounded Bold';
+      color: #2ecc71;
+  }
+
+  .flex {
+      display: flex;
+  }
+
+  #thisCanvas {
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+  }
+
+  .swatch, .tile {
+    border-radius: 2px;
+    margin: 2px;
+    border: 1px solid #bdc3c7;
+  }
+
+  .swatch:hover, .tile:hover {
+    border: 1px solid #f39c12;
+  }
+
+  .choices div{
+      margin: 10px;
+  }
