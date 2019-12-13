@@ -9,3 +9,6 @@ This is sample project for searching tour products based on keywords typed in by
 * Jest for testing
 * React-Scripts
 * Axios
+
+## To do
+[] Use CSS Modules
