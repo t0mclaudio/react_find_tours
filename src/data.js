@@ -1,4 +1,4 @@
-import Axios from 'axios';
+// import Axios from 'axios';
 
 // const data = Axios.get('http://www.etours.ph/api/v1/tourpackages/')
 //             .then((response)=>{
